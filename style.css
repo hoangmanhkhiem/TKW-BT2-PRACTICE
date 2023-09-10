@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 85%;
+    margin: 0 auto;
+    color: white;
+    background-color: #335664;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Start Header*/
+h1, h2, h3 {
+    font-family: forte, Arial, sans-serif;
+}
+
+header {
+    margin: 8px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+header h3 {
+    text-align: right;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    font-size: 20px;
+    margin: 0 8px;
+    display: inline-block;
+}
+
+li:first-child a {
+    color: #7cb2e6;
+    text-transform: lowercase;
+}
+
+li a[title="sweet tabs"] {
+    color: #73b45d;
+    text-transform: capitalize;
+}
+
+li:last-child a {
+    color: white;
+    text-transform: uppercase;
+}
+/*End Header*/
+
+/*Start Main*/
+main {
+    background-color: #213e4a;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+main h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid #345461;
+    margin-bottom: 5px;
+}
+
+main article {
+    margin: 10px 20px;
+}
+
+article figure {
+    margin-left: 5px;
+    width: 50%;
+}
+
+article img {
+    width: 100%;
+}
+
+figure {
+    float: right;
+}
+
+figure img {
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+p {
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+p:first-of-type {
+    color: #73b45d;
+}
+/*End Main*/
+
+/*Start Footer*/
+footer {
+    margin: 10px;
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+    border-top: 3px solid black;
+}
